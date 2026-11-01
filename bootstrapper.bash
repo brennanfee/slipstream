@@ -590,7 +590,7 @@ process_options() {
         ;;
       --hostname)
         shift
-        export AUTO_HOSTNAME="$1"
+        export SLIP_HOSTNAME="$1"
         ;;
       --source)
         shift
